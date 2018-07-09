@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">bigNews</string>
+    <string name="sports">Sports</string>
+    <string name="science">Science</string>
+    <string name="politics">Politics</string>
+    <string name="books">Books</string>
+    <string name="newsNull">Currently there are no any news today. You can always come later and check for all new stories.</string>
+    <string name="connectionProblem">Please check your Internet connection!</string>
+    <string name="minArticlesLabel">Minimum Stories Shown</string>
+    <string name="minArticlesKey" translatable="false">page-size</string>
+    <string name="minArticlesDefault" translatable="false">5</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="orderByKey" translatable="false">order-by</string>
+    <string name="settingsOrderByDefault" translatable="false">@string/settings_order_by_popularity_value</string>
+    <string name="settings_order_by_popularity_label">Most relevant</string>
+    <string name="settings_order_by_popularity_value" translatable="false">relevance</string>
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+</resources>

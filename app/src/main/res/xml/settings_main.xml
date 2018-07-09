@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="setting_title">
+
+    <ListPreference
+        android:defaultValue="@string/settingsOrderByDefault"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/orderByKey"
+        android:title="@string/settings_order_by_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/minArticlesDefault"
+        android:inputType="numberDecimal"
+        android:key="@string/minArticlesKey"
+        android:selectAllOnFocus="true"
+        android:title="@string/minArticlesLabel" />
+
+</PreferenceScreen>
